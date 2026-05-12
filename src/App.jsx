@@ -1,3 +1,4 @@
+import Modal from './components/Modal'
 import TodoForm from './modules/TodoForm'
 import TodoList from './modules/TodoList'
 
@@ -8,6 +9,9 @@ const App = () => {
       <div className="w-150">
         <TodoForm />
         <TodoList />
+        <Modal>
+          <h1>Salom</h1>
+        </Modal>
       </div>
 
     </div>
